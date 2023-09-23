@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Inscreva-se - ITJF</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">IFJF</span>
+                </a>
+                <!-- Nav -->
+                <nav>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Menu -->
+        <nav id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+                <h1>Inscreva-se!</h1>
+                <span class="image main"><img src="images/pic13.jpg" alt="" /></span>
+
+				<!-- Formulário de Inscrição -->
+				<form method="post" action="https://64fdfded596493f7af7ed6b4.mockapi.io/api/itjf/users">
+					<h2>Preencha seus dados</h2>
+					<div class="fields">
+						<div class="field">
+							<input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+						</div>
+						<div class="field">
+							<input type="email" name="email" id="email" placeholder="Email" required>
+						</div>
+						<div class="field">
+							<input type="tel" name="telefone" id="telefone" placeholder="Telefone (WhatsApp)" required>
+						</div>
+						<div class="field">
+							<select id="genero" name="genero" required>
+								<option value="" disabled selected>Selecione um Gênero</option>
+								<option value="masculino">Masculino</option>
+								<option value="feminino">Feminino</option>
+							</select>
+						</div>
+						<div class="field">
+							<label>Data de Nascimento:</label>
+							<input type="date" name="datanascimento" id="datanascimento" required>
+						</div>
+						<div class="field">
+							<label for="curso">Escolha seu Curso:</label>
+							<select id="curso" name="curso" required>
+								<option value="" disabled selected>Selecione um Curso</option>
+								<option value="ads">Análise e Desenvolvimento de Sistemas</option>
+								<option value="jogos">Jogos Digitais</option>
+								<option value="engsoftware">Engenharia de Software</option>
+								<option value="engcomputacao">Engenharia da Computação</option>
+								<option value="redes">Redes de Computadores</option>
+								<option value="gestao">Gestão da Tecnologia da Informação</option>
+							</select>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Enviar" class="primary" /></li>
+					</ul>
+				</form>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <section>
+                    <h2>Siga-nos</h2>
+                    <ul class="icons">
+                        <li><a href="https://www.instagram.com/joaovictor.sf/" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                        <li><a href="https://github.com/ojoaovf" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </section>
+                <ul class="copyright">
+                    <li>&copy; Untitled. Todos os direitos reservados</li>
+                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
